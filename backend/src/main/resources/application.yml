@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:"ipl-dashboard"
+
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ipl_dashboard
+    username: root
+    password: fullstackdeveloper123#
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
