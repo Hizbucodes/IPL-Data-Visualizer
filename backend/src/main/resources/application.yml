@@ -3,7 +3,7 @@ spring:
     name:"ipl-dashboard"
 
   datasource:
-    driverClassName: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/ipl_dashboard
     username: root
     password: fullstackdeveloper123#
